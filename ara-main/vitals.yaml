@@ -1,0 +1,10 @@
+apiVersion: v1
+metadata:
+  askId:
+    - AIDE_#######
+    - UHGWM###-###### (discouraged: only if needed)
+  caAgileId: poc
+  projectKey: com.optum.yourApp.yourComponent
+  projectFriendlyName: YourApp-SomeComponent
+  componentType: code
+  targetQG: GATE_00

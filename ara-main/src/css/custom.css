@@ -1,0 +1,115 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #265369;
+  --ifm-color-primary-dark: #316b87;
+  --ifm-color-primary-darker: #2e6580;
+  --ifm-color-primary-darkest: #265369;
+  --ifm-color-primary-light: #3b83a5;
+  --ifm-color-primary-lighter: #3e89ac;
+  --ifm-color-primary-lightest: #4b99be;
+  --ifm-code-font-size: 95%;
+/* oe style changes */
+  --ifm-navbar-background-color: #265369;
+  --ifm-navbar-link-color: #FFFFFF;
+  --ifm-navbar-link-hover-color: #F8FAFC;
+  --ifm-navbar-link-hover-decoration: underline;
+  --ifm-footer-background-color: #F8FAFC;
+  --ifm-footer-link-color: #31629B;
+  --ifm-footer-link-hover-color: #265369;
+
+
+
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #F0F8FA;
+  /* oe style changes */
+  --ifm-navbar-background-color: #172032;
+  --ifm-navbar-link-color: #FFFFFF;
+  --ifm-navbar-link-hover-color: #F8FAFC;
+  --ifm-navbar-link-hover-decoration: underline;
+  --ifm-footer-background-color: #26344D;
+  --ifm-footer-link-color: #5BA2F9;
+  --ifm-footer-link-hover-color: #5BA2F9;
+  --ifm-background-color: #1B2A40;
+  --ifm-dropdown-background-color: #172032;
+  --ifm-link-color: #5BA2F9;
+  --ifm-background-surface-color: #172032;
+
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.hero__title {
+  font-size: 5.5rem;
+  font-family: 'Fraunces', serif;
+  color: var(--ifm-color-primary);
+}
+
+ul.contact-list {
+  list-style-type: none;
+}
+
+ul.contact-list li {
+  line-height: 32px;
+  vertical-align: middle;
+  padding-bottom: 20px;
+}
+
+ul.contact-list img.contact-icon {
+  height: 32px;
+  float: right;
+}
+
+ul.contact-list span.icon-wrap {
+  float: left;
+  width: 100px;
+  margin-right: 30px;
+}
+
+/* You can override the default Infima variables here. */
+/*:root {
+  --ifm-color-primary: rgb(0, 0, 0);
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #000000;
+  --ifm-color-primary-lightest: #000000;
+  --ifm-code-font-size: 95%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: rgb(0, 0, 0);
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #000000;
+  --ifm-color-primary-lightest: #000000;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
